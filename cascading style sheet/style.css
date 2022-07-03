@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+}
+#body{
+    background-image: url(../img/4K-Black-Design-Background-HD-Wallpapers-40673.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(76, 73, 73);
+}
+#div1{
+    width: 420px;
+    height: 520px;
+    background: rgba(28, 28, 28, 0.555);
+    color: rgb(242, 240, 240);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+
+}
+.admin-img{
+width: 100px;
+height: 100px;
+border-radius:  0%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+
+}
+#div1 h1{
+    margin: 0;
+     padding: 0 0 20px;
+     font-size: 22px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+#div1 p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+#div1 input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+#div1 input[type="text"] , input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+#div1 input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+}
+#div1 input[type="submit"]:hover{
+cursor: pointer;
+background-color: transparent;
+color: rgb(255, 0, 0);
+
+
+}
+#div1 a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: darkgray;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#div1 a:hover{
+    color: #fb2525;
+}
+
+
